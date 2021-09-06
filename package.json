@@ -1,7 +1,7 @@
 {
-  "name": "clase-sass",
+  "name": "3d2print",
   "version": "1.0.0",
-  "description": "",
+  "description": "Pagina web de 3d2 Print mi emprendimiento de impresiones en 3d",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
