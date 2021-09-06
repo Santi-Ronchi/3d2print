@@ -1,0 +1,145 @@
+<html>
+  <head>
+    <!--Esto es un comentario lalalalala -->
+    <title>Servicios 3D2Print</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="servicio, Imprimir, modelo3d, 3d modelling, 3d2print, 3d2prints, 3d printing, prints, 3d">
+    <meta name="description" content="Danos tu modelo 3D en formato .stl o .obj y las especificaciones y nosotros lo imprimimos">
+    <meta charset="UTF-8">
+    <!--INSTERAR CSS EXTERNO -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/destinoCss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Contendio visible para el usuario -->
+    <header class="encabezado">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Eighth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"><h1 class="encabezado__logo">3D2Print</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/3d2prints"><img src="../media/fotos/instalogo.png" alt="" height="30" width="30"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/3d2prints"><img src="../media/fotos/facelogo.png" alt="" height="30" width="30"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/3d2prints"><img src="../media/fotos/twitlogo.png" alt="" height="30" width="30"></a>
+              </li>
+
+              <!--<li class="nav-item">
+                <a class="nav-link" href="./Secciones/sobre-nosotros.html" tabindex="-1" aria-disabled="true">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    
+    <main>
+      <section>
+        <!--Formulario para enviar modelos 3d, todavía no es funcional. -->
+        <article class="correrAbajo">
+          <fieldset>
+            <legend>Mandanos tu modelo 3D y las especificaciones:</legend>
+            <label for="nombre">Nombre: </label>
+            <input class="focoMouse" type="text" name="nombre" placeholder="Juan"> 
+            <br>
+          
+            <label for="apellido">Apellido: </label>
+            <input class="focoMouse" type="text" name="apellido" placeholder="Perez"> 
+            <br>
+          
+            <label for="email">E-Mail: </label>
+            <input class="focoMouse" type="email" name="email" placeholder="ej@emplo.com"> 
+            <br><br>
+
+
+            <table border="1" cellpadding="5" cellspacing="2">
+              <tr>
+                <td>Tipo de plastico:</td>
+                <td>Ancho del extrusor:</td>
+                <td>Grosor de capa deseado:</td>
+              </tr>
+              <tr>
+                <td>
+                  <select name="tipo-plastico" id="">
+                    <option value="pla">PLA</option>
+                    <option value="pet">PET</option>
+                    <option value="abs">ABS</option>
+                    <option value="hips">HIPS</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="tipo-nozzle" id="">
+                    <option value="025">0.25mm</option>
+                    <option value="040">0.40mm</option>
+                    <option value="060">0.60mm</option>
+                    <option value="080">0.80mm</option>
+                  </select>
+                </td>
+                <td>
+                  <select name="capa-deseada" id="">
+                    <option value="005">0.05mm</option>
+                    <option value="007">0.07mm</option>
+                    <option value="010">0.1mm</option>
+                    <option value="020">0.2mm</option>
+                    <option value="030">0.3mm</option>
+                    <option value="otro">otra</option>
+                  </select>
+                </td>
+              </tr>
+            </table>
+            <br>
+            <textarea cols="32" rows="9" placeholder="Contanos acerca de tu print"></textarea>
+            <p>Mandanos tu archivo:<br><input type="file" name="datafile" size="40"></p>
+          </fieldset>
+        </article>
+      </section>
+    </main>
+
+    <footer class="pieDePag">
+      <h6>este es el final de la pagina web</h6>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+  </body>
+</html>
