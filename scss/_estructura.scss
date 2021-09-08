@@ -136,18 +136,37 @@ section {
 	border-radius: 10px;
 }
 
-.galeriaGrid {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 2fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 5px;
+.banner {
+	text-align: center;
+	margin: $margen;
+	color: $colorPrimario;
+	font-family: Tourney;
 }
 
-.galeriaGrid__textoCostado {
-	display: grid;
-	grid-template-columns: 4fr 3fr;
-	align-items: center;
+.galeria {
+
+	.itemsTotal {
+		padding: $margen;
+        display: flex;
+		flex-flow: wrap;
+        justify-content: center;
+        
+		.item {
+			text-align: center;
+            flex-direction: row;
+			margin: $margen;
+            padding: 15px;
+            text-transform: uppercase;
+			transition: transform 250ms;
+            box-shadow: 10px 10px 11px -1px rgba(0,0,0,0.25);
+			-webkit-box-shadow: 10px 10px 11px -1px rgba(0,0,0,0.25);
+            -moz-box-shadow: 10px 10px 11px -1px rgba(0,0,0,0.25);
+		}
+
+		.item:hover {
+			transform: scale(1.1);
+		}
+	}
 }
 
 .tabla {

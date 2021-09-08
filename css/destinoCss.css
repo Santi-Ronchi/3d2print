@@ -100,17 +100,29 @@ section {
   /* estilos */
   border-radius: 10px; }
 
-.galeriaGrid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 2fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 5px; }
+.banner {
+  text-align: center;
+  margin: 20px;
+  color: #55d6aa;
+  font-family: Tourney; }
 
-.galeriaGrid__textoCostado {
-  display: grid;
-  grid-template-columns: 4fr 3fr;
-  align-items: center; }
+.galeria .itemsTotal {
+  padding: 20px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center; }
+  .galeria .itemsTotal .item {
+    text-align: center;
+    flex-direction: row;
+    margin: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    transition: transform 250ms;
+    box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 10px 10px 11px -1px rgba(0, 0, 0, 0.25); }
+  .galeria .itemsTotal .item:hover {
+    transform: scale(1.1); }
 
 .tabla {
   border: solid;
