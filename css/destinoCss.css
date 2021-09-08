@@ -67,13 +67,17 @@ nav ul {
 .cuerpoCarousel {
   margin-top: 20px; }
 
+.textoSombreado {
+  text-shadow: 2px 2px #000; }
+
 .cuerpoVideo {
   width: 100%;
   height: 200px; }
 
 .cuerpoVideo__texto {
   font-family: Tourney;
-  color: #55d6aa; }
+  color: #55d6aa;
+  font-size: 24px; }
 
 .pieDePag {
   color: whitesmoke;

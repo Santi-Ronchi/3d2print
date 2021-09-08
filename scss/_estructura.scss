@@ -94,6 +94,10 @@ nav{
     margin-top: $margen;
 }
 
+.textoSombreado {
+	text-shadow: 2px 2px #000;
+}
+
 .cuerpoVideo{
     @include sizes(100%, 200px);
 }
@@ -101,6 +105,7 @@ nav{
 .cuerpoVideo__texto {
 	font-family: Tourney;
 	color: $colorPrimario;
+	font-size: 24px;
 }
 
 .pieDePag{
