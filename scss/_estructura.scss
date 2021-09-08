@@ -115,6 +115,13 @@ nav{
     transform: translateY(50px);
 }
 
+.anuncio {
+	text-align: center;
+	margin: 100px;
+	font-family: Tourney;
+	color: $colorPrimario;
+	text-transform: uppercase;
+}
 
 section {
 	width: 80%;
@@ -132,7 +139,6 @@ section {
 }
 
 .bordesRedondeados {
-	/* estilos */
 	border-radius: 10px;
 }
 
@@ -182,13 +188,6 @@ section {
 	font-size: 16px;
 }
 
-.focoMouse {
-	transition: all ease-in-out 500ms;
-}
-
-.focoMouse:hover {
-	@include sizes(250, 35)
-}
 
 @keyframes iniciaPagina {
 	0% {
