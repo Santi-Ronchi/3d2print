@@ -46,10 +46,9 @@ body {
 
 nav{
     li{
-        align-items: center;
-	margin-left: $margen*2;
-	padding-top: $margen+5;
-	position: relative;
+    	align-items: center;
+		padding-top: $margen+5;
+		position: relative;
     }
 
     ul{
@@ -100,6 +99,7 @@ nav{
 
 .cuerpoVideo{
     @include sizes(100%, 200px);
+	margin-bottom: $margen*2;
 }
 
 .cuerpoVideo__texto {
@@ -158,6 +158,8 @@ section {
         justify-content: center;
         
 		.item {
+			width: 250px;
+			height: 300px;
 			text-align: center;
             flex-direction: row;
 			margin: $margen;
@@ -178,6 +180,7 @@ section {
 .tabla {
 	border: solid;
 	border-width: 1;
+	margin-bottom: $margen*3;
 }
 
 .tabla__titulo {

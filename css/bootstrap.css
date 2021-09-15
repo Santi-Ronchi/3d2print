@@ -4055,7 +4055,7 @@ textarea.form-control-lg {
   overflow-y: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 1px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -4108,6 +4108,8 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
+
+
 @media (min-width: 768px) {
   .navbar-expand-md {
     flex-wrap: nowrap;
@@ -4725,6 +4727,7 @@ textarea.form-control-lg {
   color: #6c757d;
   content: var(--bs-breadcrumb-divider, "/") /* rtl: var(--bs-breadcrumb-divider, "/") */;
 }
+
 .breadcrumb-item.active {
   color: #6c757d;
 }
@@ -7772,7 +7775,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-image: linear-gradient(315deg, #01baef 0%, #2a2a72 74%) !important;
 }
 
 .bg-dark {
